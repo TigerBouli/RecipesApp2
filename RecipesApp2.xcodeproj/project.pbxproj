@@ -15,6 +15,7 @@
 		7B0B7E4D290ECD2500DA941E /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B7E4C290ECD2500DA941E /* RecipeModel.swift */; };
 		7B0B7E4F290ECE0600DA941E /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B7E4E290ECE0600DA941E /* RecipeViewModel.swift */; };
 		7B0B7E52290ECE8600DA941E /* DataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B7E51290ECE8600DA941E /* DataReader.swift */; };
+		7B54F80029181EE3006963E8 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B54F7FF29181EE3006963E8 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7B0B7E4C290ECD2500DA941E /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		7B0B7E4E290ECE0600DA941E /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		7B0B7E51290ECE8600DA941E /* DataReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReader.swift; sourceTree = "<group>"; };
+		7B54F7FF29181EE3006963E8 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7B0B7E3B290ECAD600DA941E /* RecipeListView.swift */,
+				7B54F7FF29181EE3006963E8 /* RecipeDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B0B7E4F290ECE0600DA941E /* RecipeViewModel.swift in Sources */,
+				7B54F80029181EE3006963E8 /* RecipeDetailView.swift in Sources */,
 				7B0B7E52290ECE8600DA941E /* DataReader.swift in Sources */,
 				7B0B7E3C290ECAD600DA941E /* RecipeListView.swift in Sources */,
 				7B0B7E3A290ECAD600DA941E /* RecipesApp2App.swift in Sources */,

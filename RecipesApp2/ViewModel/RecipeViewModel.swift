@@ -9,7 +9,10 @@ import Foundation
 
 
 class RecipeViewModel: ObservableObject {
+    
     @Published var recipes = [Recipe]()
+    
+    var currectRecipe: Recipe?
     
     init() {
         recipes = DataReader.readLocalData()
